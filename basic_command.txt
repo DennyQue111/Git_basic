@@ -15,3 +15,7 @@ git diff --cached    before "git commit" after "git add"
 To keep an empty folder, add '.gitkeeper' file in it
 git restore --staged file name      after file was added
 git restore --staged .       Be careful with this, it will delete the previous state;
+git checkout commit_ID   goes back to previous version
+git checkout main   goes back to the new version;
+git log --oneline
+git revert commit_ID      better not do this
