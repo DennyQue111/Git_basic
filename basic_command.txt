@@ -11,4 +11,7 @@ git status
 git log --grepe='Message you would like to search'
 git mv .\name_of_the_file another_name_of_the_file   change name to be a new name
 git diff
-git diff --cached
+git diff --cached    before "git commit" after "git add"
+To keep an empty folder, add '.gitkeeper' file in it
+git restore --staged file name      after file was added
+git restore --staged .       Be careful with this, it will delete the previous state;
