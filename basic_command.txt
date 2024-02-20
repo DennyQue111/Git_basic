@@ -1,0 +1,11 @@
+git add or git add .
+git clone "URL"
+git commit -m 'content'
+git push
+git log
+git log -p
+git log --cached
+git show
+git log -graph
+git status
+git log --grepe='Message you would like to search'
