@@ -19,3 +19,5 @@ git checkout commit_ID   goes back to previous version
 git checkout main   goes back to the new version;
 git log --oneline
 git revert commit_ID      better not do this
+if you don't want to track specific files, creat ".gitignore" file and then add names of files in that file;
+or you can type "logs/" means ignore all files or "logs/*.txt" means ignore all txt files.
